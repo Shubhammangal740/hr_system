@@ -40,7 +40,7 @@ const DashboardLayout = () => {
 
                 {/* Sidebar */}
                 <aside className={`
-                    fixed lg:sticky top-16 h-[calc(100vh-64px)] w-64 bg-white border-r border-gray-200 
+                    fixed lg:sticky top-16 lg:top-0 h-[calc(100vh-64px)] w-64 bg-white border-r border-gray-200 
                     z-50 transition-transform duration-300 lg:translate-x-0
                     ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
                 `}>
