@@ -36,7 +36,7 @@ const App = () => {
                 <Route path="/admin-dashboard/attendance" element={<GlobalAttendance />} />
             </Route>
 
-            <Route path="/" element={<Navigate to={user ? (user.role === 'admin' ? '/admin-dashboard' : '/employee-dashboard') : '/login'} />} />
+            <Route path="/" element={<Navigate to="/login" />} />
 
             <Route path="*" element={<NotFound />} />
         </Routes>
