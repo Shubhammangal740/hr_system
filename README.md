@@ -104,13 +104,7 @@ npm run dev
 ### Attendance
 - Attributes: `userId` (Ref), `date`, `status` (Present / Absent).
 
-## 7. Admin Credentials
-For testing purposes, a default administrative account can be used:
-- **Email**: admin@test.com
-- **Password**: admin123
-*Note: Ensure this user is seeded in your MongoDB instance manually for the first login.*
-
-## 8. AI Tools Declaration
+## 7. AI Tools Declaration
 This project utilized a collaborative development approach between the engineer and AI assistance.
 
 ### Contribution Split
